@@ -1,54 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Page 1</title>
-    <link rel="stylesheet" href="./css/stylesheet.css"
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Page 2</title>
+	<link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1>Survey page 1</h1>
-    <p><a href="./survey-1.html"> Take the survey </a></p>
-    <p>
-         <button onclick="window.location.href='./survey-2.html';">
-           Next page
-          </button>
-    </p>
-    <p> page 1 of 2</p>
+	<h1>Survey Continued</h1>
+	<p>Please fill out the following information:</p>
+	<form>
+		<label for="feedback">How has your experience at Iowa been?</label>
+		<br>
+		<textarea id="feedback" name="feedback" rows="10" cols="50" autofocus></textarea><br><br>
+
+		<label for="improvements">What are some improvements you would like to see around campus?</label>
+		<br>
+		<textarea id="improvements" name="improvements" rows="10" cols="50"></textarea><br><br>
+
+		<label for="recommendation">Would you recommend Iowa to other people? Why or why not?</label>
+		<br>
+		<textarea id="recommendation" name="recommendation" rows="10" cols="50"></textarea><br><br>
+	</form>
+	<p>
+		<button onclick="window.location.href='./thank-you.html';">
+			Next page
+		</button>
+	</p>
+	<p>Page 2 of 2</p>
 </body>
 </html>
-
-<body>
-    <h1> Survey page 1</h1>
-
-    <form>
-        <fieldset>
-            <legend> Contact Information</legend>
-
-            <label for="fname"> First Name:
-                <input id="lname" type="email" autofocus
-
-            </label>
-        </fieldset>
-    </form>
-</body>
-
-<form>
-    <fieldset>
-      <legend>Fruit juice size</legend>
-      <p>
-        <input type="radio" name="size" id="size_1" value="small" />
-        <label for="size_1">Small</label>
-      </p>
-      <p>
-        <input type="radio" name="size" id="size_2" value="medium" />
-        <label for="size_2">Medium</label>
-      </p>
-      <p>
-        <input type="radio" name="size" id="size_3" value="large" />
-        <label for="size_3">Large</label>
-      </p>
-    </fieldset>
-  </form>
-  
