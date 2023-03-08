@@ -1,0 +1,28 @@
+/* Set the background color of the body */
+body {
+  background-color: rgb(192, 212, 230);
+  font-family: Arial, sans-serif; /* set the font family for the entire document */
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the heading and add some margin at the top */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Add some margin to the paragraphs */
+p {
+  margin-left: 20px;
+}
+
+/* Add some margin to the form and its elements */
+form {
+  margin-left: 20px;
+}
+
+/* Disable the resizing of textareas */
+textarea {
+  resize: none;
+}
