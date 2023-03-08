@@ -13,36 +13,27 @@
 	<title>Survey Page</title>
 </head>
 <body>
-    <img src="image.jpg" alt="Description of image" class="right">
+    <h1>Survey Continued</h1>
 	<p>Please fill out the following information:</p>
-	<form>
-		<label for="firstName">First Name:</label>
-		<input type="text" id="firstName" name="firstName" autofocus><br><br>
-		
-		<label for="lastName">Last Name:</label>
-		<input type="text" id="lastName" name="lastName"><br><br>
-		
-		<label for="gender">Gender:</label>
-		<select id="gender" name="gender">
-			<option value="male">Male</option>
-			<option value="female">Female</option>
-			<option value="non-binary">Non-Binary</option>
-			<option value="prefer-not-to-say">Prefer not to say</option>
-		</select><br><br>
-		
-		<label for="question">Are you a student at the University of Iowa?</label>
-		<input type="radio" id="yes" name="question" value="yes">
-	    <label for="yes">Yes</label>
-	    <input type="radio" id="no" name="question" value="no">
-	    <label for="no">No</label>
-    </form>
-		
-         <p>
-            <button onclick="window.location.href='./survey-1.html';">
-                Next page
-            </button>
-        </p>
-        <p> page 2 of 2</p>
+    <form>
+		<label for="feedback">How has your experience at Iowa been?</label>
+		<br>
+		<textarea id="feedback" name="feedback" rows="10" cols="50"></textarea><br><br>
 
+		<label for="feedback">What are some improvements you would like to see?</label>
+		<br>
+		<textarea id="feedback" name="feedback" rows="10" cols="50"></textarea><br><br>
+
+		<label for="feedback">Would you recommend Iowa to other people?</label>
+		<br>
+		<textarea id="feedback" name="feedback" rows="10" cols="50"></textarea><br><br>
+
+	</form>
+    <p>
+        <button onclick="window.location.href='./thank-you.html';">
+            Next page
+        </button>
+    </p>
+    <p> page 2 of 2</p>
 </body>
 </html>

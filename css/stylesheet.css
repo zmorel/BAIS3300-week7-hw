@@ -4,5 +4,8 @@ body {
 
 .right {
     float: right;
-    margin-left: 10px;
-  }
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px; /* set the width of the image */
+    height: auto; /* keep the aspect ratio */
+}
