@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 1</title>
-    <link rel="stylesheet" href="./css/stylesheet.css"
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
-<body>
-    <h1>Survey page 1</h1>
-    <p><a href="./survey-1.html"> Take the survey </a></p>
-    <p>
-         <button onclick="window.location.href='./survey-2.html';">
-           Next page
-          </button>
-    </p>
-    <p> page 1 of 2</p>
-</body>
 </html>
 
-<form>
-    <fieldset>
-      <legend>Fruit juice size</legend>
-      <p>
-        <input type="radio" name="size" id="size_1" value="small" />
-        <label for="size_1">Small</label>
-      </p>
-      <p>
-        <input type="radio" name="size" id="size_2" value="medium" />
-        <label for="size_2">Medium</label>
-      </p>
-      <p>
-        <input type="radio" name="size" id="size_3" value="large" />
-        <label for="size_3">Large</label>
-      </p>
-    </fieldset>
-  </form>
-  
+<head>
+	<title>Survey Page</title>
+</head>
+<body>
+    <img src="image.jpg" alt="Description of image" class="right">
+	<p>Please fill out the following information:</p>
+	<form>
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName" autofocus><br><br>
+		
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" name="lastName"><br><br>
+		
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="non-binary">Non-Binary</option>
+			<option value="prefer-not-to-say">Prefer not to say</option>
+		</select><br><br>
+		
+		<label for="question">Are you a student at the University of Iowa?</label>
+		<input type="radio" id="yes" name="question" value="yes">
+	    <label for="yes">Yes</label>
+	    <input type="radio" id="no" name="question" value="no">
+	    <label for="no">No</label>
+    </form>
+		
+         <p>
+            <button onclick="window.location.href='./survey-1.html';">
+                Next page
+            </button>
+        </p>
+        <p> page 2 of 2</p>
+
+</body>
+</html>

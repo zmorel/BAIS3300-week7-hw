@@ -1,0 +1,8 @@
+body {
+    background-color: aliceblue;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+  }
